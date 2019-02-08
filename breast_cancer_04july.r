@@ -1,0 +1,14 @@
+library("class")
+wdbc=read.csv("wdbc.data.txt")
+#View(wdbc)
+#set.seed(100)
+row_index=sample(1:nrow(wdbc),0.8*nrow(wdbc))
+d=function(x){((x-min(x))/(max(x)-min(x)))}
+aa_norm=as.data.frame(lapply(wdbc[,-2],d))
+train_data=as.data.frame(aa_norm[row_index,])
+test_data=as.data.frame(aa_norm[-row_index,])
+t_pred=knn(train_data,test_data,wdbc[row_index,2],k=3)
+tb1=table(t_pred,wdbc[-row_index,2])
+a=0.2*nrow(wdbc)
+accuracy=((sum(diag(tb1)))/a)*100
+accuracy
