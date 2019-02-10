@@ -1,0 +1,1436 @@
+                      
+                    REPORT 1      
+
+
+a=scan()
+
+b=scan()
+
+c=scan(what="character")
+
+switch(c,"+"=print(a+b),"-"=print(a-b))
+
+
+> source("calc.r")
+
+1: 3
+
+2: 
+
+Read 1 item
+
+1: 4
+
+2: 
+
+Read 1 item
+
+1: +
+
+2: 
+
+Read 1 item
+
+[1] 7
+
+
+
+2(a)
+
+for(val in seq(1,5,1))
+
+{
+
+  for(val1 in seq(1,val,1))
+
+  {cat("*")} 
+
+  cat("\n")
+
+  }
+
+ 
+
+> source("pyramid.r")
+
+*
+
+**
+
+***
+
+****
+
+ 
+
+2(b)
+
+n=scan()
+
+s=n
+
+for(i in 1:n)
+
+{
+
+  for(j in 1:s)
+
+    cat(" ")
+
+  for(k in 1:i)
+
+  {cat(k) 
+
+  }
+
+  if(i>1)
+
+  {for(z in (i-1):1)
+
+  {cat(z)}
+
+  }
+
+ s=s-1
+
+ cat("\n")
+
+}
+
+
+> source("pascal.r")
+
+1: 5
+
+2: 
+
+Read 1 item
+
+     1
+
+    121
+
+   12321
+
+  1234321
+
+ 123454321
+
+
+3)
+
+n=scan()
+
+for(i in 2:n)
+
+ { f=1
+
+     for(j in 2:(i/2))
+
+       {
+
+         if(i%%j==0)
+
+          f=0
+
+        break
+
+       } 
+
+  if(f==1)
+
+    print(i)
+
+  }
+
+  
+
+
+
+
+
+> source("prime.r")
+
+1: 20
+
+2: 
+
+Read 1 item
+
+[1] 3
+
+[1] 5
+
+[1] 7
+
+[1] 9
+
+[1] 11
+
+[1] 13
+
+[1] 15
+
+[1] 17
+
+[1] 19
+ 
+
+
+4)
+ 
+
+
+
+
+
+
+ 
+
+ 
+
+n=scan()
+
+z=1
+
+for(val in seq(2,n,1))
+
+{
+
+  z=z*val  
+
+}
+
+cat(z)
+
+
+> source("fact.r")
+
+1: 5
+
+2: 
+
+Read 1 item
+
+120
+
+
+
+5)
+
+n=scan()
+
+x=1
+
+y=1
+
+repeat
+
+{cat (x)  
+
+  cat(" ")
+
+  cat(y)  
+
+  cat(" ")
+
+  x=x+y
+
+  y=y+x
+
+if(x>n)break
+
+  }
+
+
+> source("fibo.r")
+
+1: 10
+
+2: 
+
+Read 1 item
+
+1 1 2 3 5 8 
+
+
+6)
+
+n=100
+
+count=0
+
+for(i in 2:n)
+
+{ f=1
+
+
+for(j in 2:(i/2))
+
+{
+
+  if(i%%j==0)
+
+    f=0
+
+  break
+
+}
+
+
+if(f==1)
+
+{ print(i)
+
+  count=count+1
+
+  if(count==5)
+
+  {
+
+    break
+
+  }
+
+}
+
+}
+
+
+> source("break5.r")
+
+[1] 3
+
+[1] 5
+
+[1] 7
+
+[1] 9
+
+[1] 11
+
+
+
+7) 
+
+n=100
+
+count=0
+
+for(i in 2:n)
+
+{ f=1
+
+
+for(j in 2:(i/2))
+
+{
+
+  if(i%%j==0)
+
+    f=0
+
+  break
+
+}
+
+if(f==1)
+
+{
+
+  count=count+1
+
+  if(count==7)  
+
+  { next
+
+  }else{print(i)}
+
+}
+
+}
+
+
+> source("skip6.r")
+
+[1] 3
+
+[1] 5
+
+[1] 7
+
+[1] 9
+
+[1] 11
+
+[1] 13
+
+[1] 19
+
+[1] 21
+
+[1] 23
+
+[1] 25
+
+[1] 27
+
+[1] 29
+
+[1] 31
+
+[1] 33
+
+[1] 35
+
+[1] 37
+
+[1] 39
+
+[1] 41
+
+[1] 43
+
+[1] 45
+
+[1] 47
+
+[1] 49
+
+[1] 51
+
+[1] 53
+
+[1] 55
+
+[1] 57
+
+[1] 59
+
+[1] 61
+
+[1] 63
+
+[1] 65
+
+[1] 67
+
+[1] 69
+
+[1] 71
+
+[1] 73
+
+[1] 75
+
+[1] 77
+
+[1] 79
+
+[1] 81
+
+[1] 83
+
+[1] 85
+
+[1] 87
+
+[1] 89
+
+[1] 91
+
+[1] 93
+
+[1] 95
+
+[1] 97
+
+
+
+                  
+                  REPORT 2
+
+
+
+                                                INDEX
+
+
+1. INTRODUCTION
+
+
+
+    2. PROBLEM
+
+
+    3. DATA SET USED
+
+
+    4. METHODOLOGY
+
+    
+
+    5. EXPERIMENTAL WORK WITH CODE
+
+
+    6. RESULT ANALYSIS
+
+
+    7. CONCLUSION
+
+
+    8. REFERENCES
+
+
+    9. APPENDIX
+
+
+
+
+
+                          INTRODUCTION
+
+
+
+The following project is based on the WORLD-BANK data set . The main aim of the project is to read the above data set and classify them as rich and poor countries based on their per capita income (PCI) . The R tool used for this purpose is KMEANS . Various barplots are considered for the rich and poor countries in different categories . The following are the categories :
+
+MObile subscription
+
+military expenditure
+
+export of good
+
+service value added
+
+industry value added
+
+agriculture value added
+
+inflation rate
+
+GDP growth
+
+energy use
+
+improved sanitation facility
+
+improved water source
+
+forest area
+
+prevalence of HIV in the population etc
+
+  
+
+                              PROBLEM   
+
+
+The basic problem is to find the appropriate data set . The desired data set is created and is named as WORLD-BANK.CSV . The data set consists of 217 countries , each country’s serial code , serial name , country code ,population is available . The 217 different countries are classified/clustered using the KMEANS tool and they are classified as rich and poor ,considering their per capita income(PCI) .  
+
+
+
+                        
+
+
+                                         DATA SET USED
+
+
+The data set used is World - bank . Csv . It consists of the following 5 columns -
+
+.Series.Name
+
+Series.Code
+
+Country.Name
+
+Country.Code
+
+X2015..YR2015.
+
+  
+
+It consists of 11723 rows . There are 217 different countries in the given data set . The data set contains the information about different countries  till the year 2015 . 
+
+                                        
+
+
+                                         METHDOLOGY 
+
+
+The basic methodology , that is the basic tools used in the project are -
+
+1.Clustering -Cluster analysis or clustering is the task of grouping a set of objects in such a way that objects in the same group (called a cluster) are more similar (in some sense or another) to each other than to those in other groups (clusters). Cluster analysis itself is not one specific algorithm, but the general task to be solved. It can be achieved by various algorithms that differ significantly in their notion of what constitutes a cluster and how to efficiently find them. Popular notions of clusters include groups with small distances among the cluster members, dense areas of the data space, intervals or particular statistical distributions  
+
+
+
+
+
+
+2.Sentiment Analysis - Sentiment analysis (also known as opinion mining) refers to the use of natural language processing (NLP), text analysis and computational linguistics to identify and extract subjective information from the source materials. Generally speaking, sentiment analysis aims to determine the attitude of a writer or a speaker with respect to a specific topic or the overall contextual polarity of a document.
+
+
+
+    
+
+
+
+
+ 3. Barplot - A bar chart or bar plot displays rectangular bars with lengths proportional to the values that they represent. The bars can be plotted vertically or horizontally. One axis of the chart shows the specific categories being compared, and the other axis represents a discrete value. In R, they are made using the barplot function. Bars can be grouped by categories,
+
+making grouped barplot. Barplot must not be confused with histogram nor with boxplot.
+
+
+
+                              
+
+                  EXPERIMENTAL WORK WITH                          
+
+                                                      CODE    
+
+
+                                          
+
+
+
+
+
+
+
+
+
+                              RESULT ANALYSIS
+
+It is a bar plot of the problem, showing the difference between Rich Vs poor in several countries: 
+
+This bar plot is showing the Population Growth of different countries:
+
+
+
+This plot is showing the Surface Area required by the countries:
+
+
+
+                      
+
+
+
+
+
+
+In this plot, Fertility rate of the different countries is shown:                        
+
+
+
+In this plot, Gender Parity is shown:
+
+
+
+
+
+This plot is showing the GDP growth of the countries.
+
+                                     
+
+                        REFERENCES
+
+              Data Set: http://databank.worldbank.org/data/home.aspx
+
+
+                                          CONCLUSION 
+
+
+We have determined the GDP growth, surface area occupied, fertility rate, mortality, Gender Parity etc of the countries from which we can distinguish in between the different countries.                        
+
+                                            APPENDIX
+
+
+setwd("/media/parth/CE02917E02916BE9/R")
+
+input=read.csv(("world_bank.csv"))
+
+#View(input)
+
+names(input)
+
+input=input[,c(3,5)]
+
+#View(input)
+
+#input1=input[,2]
+
+#View(input1)
+
+#extracting the population
+
+population_total=input[1:217,]
+
+population_total
+
+c1=population_total
+
+c2=input[218:(218+216),]
+
+c2
+
+218+216
+
+c3=input[435:(435+216),]
+
+c3
+
+435+216
+
+c4=input[652:(652+216),]
+
+c4
+
+652+216
+
+c5=input[869:(869+216),]
+
+c5
+
+869+216
+
+c6=input[1086:(1086+216),]
+
+c6
+
+1086+216
+
+c7=input[1303:(1303+216),]
+
+c7
+
+1303+216
+
+c8=input[1520:(1520+216),]
+
+c8
+
+1520+216
+
+c9=input[1737:(1737+216),]
+
+c9
+
+1737+216
+
+c10=input[1954:(1954+216),]
+
+c10
+
+1954+216
+
+c11=input[2171:(2171+216),]
+
+c11
+
+2171+216
+
+c12=input[2388:(2388+216),]
+
+c12
+
+2388+216
+
+c13=input[2605:(2605+216),]
+
+c13
+
+2605+216
+
+c14=input[2822:(2822+216),]
+
+c14
+
+2822+216
+
+c15=input[3039:(3039+216),]
+
+c15
+
+3039+216
+
+c16=input[3256:(3256+216),]
+
+c16
+
+3256+216
+
+c17=input[3473:(3473+216),]
+
+c17
+
+3473+216
+
+c18=input[3690:(3690+216),]
+
+c18
+
+3690+216
+
+c19=input[3907:(3907+216),]
+
+c19
+
+3907+216
+
+c20=input[4124:(4124+216),]
+
+c20
+
+4124+216
+
+c21=input[4341:(4341+216),]
+
+c21
+
+4341+216
+
+c22=input[4558:(4558+216),]
+
+c22
+
+4558+216
+
+c23=input[4775:(4775+216),]
+
+c23
+
+4775+216
+
+c24=input[4992:(4992+216),]
+
+c24
+
+4992+216
+
+c25=input[5209:(5209+216),]
+
+c25
+
+5209+216
+
+c26=input[5426:(5426+216),]
+
+c26
+
+5426+216
+
+c27=input[5643:(5643+216),]
+
+c27
+
+5643+216
+
+c28=input[5860:(5860+216),]
+
+c28
+
+5860+216
+
+c29=input[6077:(6077+216),]
+
+c29
+
+6077+216
+
+c30=input[6294:(6294+216),]
+
+c30
+
+6294+216
+
+c31=input[6511:(6511+216),]
+
+c31
+
+6511+216
+
+c32=input[6728:(6728+216),]
+
+c32
+
+6728+216
+
+c33=input[6945:(6945+216),]
+
+c33
+
+6945+216
+
+c34=input[7162:(7162+216),]
+
+c34
+
+7162+216
+
+c35=input[7379:(7379+216),]
+
+c35
+
+7379+216
+
+c36=input[7596:(7596+216),]
+
+c36
+
+7596+216
+
+c37=input[7813:(7813+216),]
+
+c37
+
+7813+216
+
+c38=input[8030:(8030+216),]
+
+c38
+
+8030+216
+
+c39=input[8247:(8247+216),]
+
+c39
+
+8247+216
+
+c40=input[8464:(8464+216),]
+
+c40
+
+c41=input[8681:(8681+216),]
+
+c41
+
+c42=input[8898:(8898+216),]
+
+c42
+
+c43=input[9115:(9115+216),]
+
+c43
+
+c44=input[9332:(9332+216),]
+
+c44
+
+c45=input[9549:(9549+216),]
+
+c45
+
+c46=input[9766:(9766+216),]
+
+c46
+
+c47=input[9983:(9983+216),]
+
+c47
+
+c48=input[10200:(10200+216),]
+
+c48
+
+c49=input[10417:(10417+216),]
+
+c49
+
+c50=input[10634:(10634+216),]
+
+c50
+
+c51=input[10851:(10851+216),]
+
+c51
+
+c52=input[11068:(11068+216),]
+
+c52
+
+c53=input[11285:(11285+216),]
+
+c53
+
+c54=input[11502:(11502+216),]
+
+c54
+
+df=data.frame(c1,c2,c3,c4,c5,c6,c7,c8,c9,c10,c11,c12,c13,c14,c15,c16,c17,c18,c19,c20,c21,c22,c23,c24,c25,c26,c27,c28,c29,c30,c31,c32,c33,c34,c35,c36,c37,c38,c39,c40,c41,c42,c43,c44,c45,c46,c47,c48,c49,c50,c51,c52,c53,c54)
+
+#removed name column from it
+
+dff=df[,c(1,2,4,6,8,10,12,14,16,18,20,22,24,26,28,30,32,34,36,38,40,42,44,46,48,50,52,54,56,58,60,62,64,66,68,70,72,74,76,78,80,82,84,86,88,90,92,94,96,98,100,102,104,106,108)]
+
+View(dff)
+
+dff1=dff[-c(5,10,22,28,37,40,51,62,65,69,75,94,103,113,114,131,141,152,158,164,172,183,190,201,211),]
+
+# 53 col is GDP per capita
+
+#now I have (..) value in my data
+
+dff1[dff1==".."]<-NA
+
+#NA value introduced at specific locations
+
+fit=kmeans(na.omit(dff1[,53]),2)
+
+#find NA index
+
+a=subset(dff1, !is.na(dff1[,53]))
+
+# I have used na.omit() function to remove NA values
+
+#a is a new data frame with NA value removed corresponding to per capita
+
+R_df=data.frame()
+
+P_df=data.frame()
+
+a=cbind(a,fit$cluster)
+
+# adding the result of cluster in data frame
+
+#separating the data based on clustser
+
+for(i in 1:nrow(a)){
+
+  if(a[i,56]==1){
+
+    R_df=rbind(R_df,a[i,])    
+
+  }
+
+  else{
+
+    P_df=rbind(P_df,a[i,])
+
+  }
+
+}
+
+#now I have seperated data based on the result of clustering in two different category
+
+View(R_df)
+
+View(P_df)
+
+PCI_mean_R=mean(as.numeric(as.vector(R_df[,53])))
+
+PCI_mean_P=mean(as.numeric(as.vector(P_df[,53])))
+
+barplot(c(PCI_mean_R,PCI_mean_P),xlab = "rich vs poor",col=rainbow(8))
+
+#########################################################333
+
+#population growth
+
+PG_mean_R=mean(as.numeric(as.vector(R_df[,3])))
+
+PG_mean_P=mean(as.numeric(as.vector(P_df[,3])))
+
+barplot(c(PG_mean_R,PG_mean_P),xlab = "rich vs poor",ylab="population growth",col=rainbow(8))
+
+#############################################################
+
+#surface area
+
+SA_mean_R=mean(as.numeric(as.vector(R_df[,4])))
+
+SA_mean_P=mean(as.numeric(as.vector(P_df[,4])))
+
+barplot(c(SA_mean_R,SA_mean_P),xlab = "rich vs poor",ylab="Surface Area",col=rainbow(8))
+
+
+#################################################################
+
+# life expectancy at birth
+
+LE_mean_R=mean(as.numeric(as.vector(na.omit(R_df[,11]))))
+
+LE_mean_P=mean(as.numeric(as.vector(na.omit(P_df[,11]))))
+
+barplot(c(LE_mean_R,LE_mean_P),xlab = ("Rich vs Poor"),ylab = "Life Expectancy",col = rainbow(8))
+
+
+#################################################################
+
+#fertility rate
+
+FR_mean_R=mean(as.numeric(as.vector(na.omit(R_df[,12]))))
+
+FR_mean_P=mean(as.numeric(as.vector(na.omit(P_df[,12]))))
+
+barplot(c(FR_mean_R,FR_mean_P),xlab="Rich Vs Poor",ylab = "Fertility rate",col=rainbow(3))
+
+
+#############################################################
+
+
+#Adolescent Fertility Rate (15-19)
+
+AFR_mean_R=mean(as.numeric(as.vector(na.omit(R_df[,13]))))
+
+AFR_mean_P=mean(as.numeric(as.vector(na.omit(P_df[,13]))))
+
+barplot(c(AFR_mean_R,AFR_mean_P),xlab="Rich Vs Poor",ylab = "Adolescent Fertility rate",col=rainbow(3))
+
+
+###############################################################3
+
+
+# mortality rate
+
+MR_mean_R=mean(as.numeric(as.vector(na.omit(R_df[,16]))))
+
+MR_mean_P=mean(as.numeric(as.vector(na.omit(P_df[,16]))))
+
+barplot(c(MR_mean_R,MR_mean_P),xlab="Rich Vs Poor",ylab = "mortality rate",col=rainbow(3))
+
+
+################################################################33
+
+
+# immunization, measles
+
+IMM_mean_R=mean(as.numeric(as.vector(na.omit(R_df[,18]))))
+
+IMM_mean_P=mean(as.numeric(as.vector(na.omit(P_df[,18]))))
+
+barplot(c(IMM_mean_R,IMM_mean_P),xlab="Rich Vs Poor",ylab = "Immunization,Measles",col=rainbow(3))
+
+
+####################################################################33
+
+# Primary completion rate
+
+PR_C_mean_R=mean(as.numeric(as.vector(na.omit(R_df[,19]))))
+
+PR_C_mean_P=mean(as.numeric(as.vector(na.omit(P_df[,19]))))
+
+barplot(c(PR_C_mean_R,PR_C_mean_P),xlab="Rich Vs Poor",ylab = "Primary Completion rate",col=rainbow(3))
+
+
+####################################################################
+
+#school enrollment secondary
+
+#20th column
+
+SES_mean_R=mean(as.numeric(as.vector(na.omit(R_df[,20]))))
+
+SES_mean_P=mean(as.numeric(as.vector(na.omit(P_df[,20]))))
+
+barplot(c(SES_mean_R,SES_mean_P),xlab="Rich Vs Poor",ylab = "School Enrollment Secondary",col=rainbow(3))
+
+######################################################################
+
+
+# school enrollment primary and secondary with gender parity
+
+# ratio of girls and boys
+
+SE_GP_mean_R=mean(as.numeric(as.vector(na.omit(R_df[,21]))))
+
+SE_GP_mean_P=mean(as.numeric(as.vector(na.omit(P_df[,21]))))
+
+barplot(c(SE_GP_mean_R,SE_GP_mean_P),xlab="Rich Vs Poor",ylab = "Gender Parity in P&S school",col=rainbow(3))
+
+
+###############################################################
+
+
+# prevalence of HIV in the population
+
+HIV_mean_R=mean(as.numeric(as.vector(na.omit(R_df[,22]))))
+
+HIV_mean_P=mean(as.numeric(as.vector(na.omit(P_df[,22]))))
+
+barplot(c(HIV_mean_R,HIV_mean_P),xlab="Rich Vs Poor",ylab = "HIV Prevalence",col=rainbow(3))
+
+
+#########################################################################
+
+
+# forest area
+
+FA_mean_R=mean(as.numeric(as.vector(na.omit(R_df[,23]))))
+
+FA_mean_P=mean(as.numeric(as.vector(na.omit(P_df[,23]))))
+
+barplot(c(FA_mean_R,FA_C_mean_P),xlab="Rich Vs Poor",ylab = "Forest Area",col=rainbow(3))
+
+
+#####################################################################
+
+
+#improved water source
+
+#column 25
+
+IWS_mean_R=mean(as.numeric(as.vector(na.omit(R_df[,25]))))
+
+IWS_mean_P=mean(as.numeric(as.vector(na.omit(P_df[,25]))))
+
+barplot(c(IWS_mean_R,IWS_mean_P),xlab="Rich Vs Poor",ylab = "Improved water source",col=rainbow(3))
+
+
+#################################################################
+
+
+#improved sanitation facility
+
+ISF_mean_R=mean(as.numeric(as.vector(na.omit(R_df[,26]))))
+
+ISF_mean_P=mean(as.numeric(as.vector(na.omit(P_df[,26]))))
+
+barplot(c(ISF_mean_R,ISF_mean_P),xlab="Rich Vs Poor",ylab = "improved sanitation facility",col=rainbow(3))
+
+
+############################################################3
+
+
+# energy use
+
+EU_mean_R=mean(as.numeric(as.vector(na.omit(R_df[,27]))))
+
+EU_mean_P=mean(as.numeric(as.vector(na.omit(P_df[,27]))))
+
+barplot(c(EU_mean_R,EU_mean_P),xlab="Rich Vs Poor",ylab = "Energy Use",col=rainbow(3))
+
+
+################################################################
+
+
+# GDP growth
+
+GDP_G_mean_R=mean(as.numeric(as.vector(na.omit(R_df[,31]))))
+
+GDP_G_mean_P=mean(as.numeric(as.vector(na.omit(P_df[,31]))))
+
+barplot(c(GDP_G_mean_R,GDP_G_mean_P),xlab="Rich Vs Poor",ylab = "GDP growth",col=rainbow(3))
+
+#####################################################################
+
+
+#inflation rate
+
+INF_mean_R=mean(as.numeric(as.vector(na.omit(R_df[,32]))))
+
+INF_mean_P=mean(as.numeric(as.vector(na.omit(P_df[,32]))))
+
+barplot(c(INF_mean_R,INF_mean_P),xlab="Rich Vs Poor",ylab = "Inflation",col=rainbow(3))
+
+
+####################################################################
+
+
+#agriculture value added
+
+AG_VA_mean_R=mean(as.numeric(as.vector(na.omit(R_df[,33]))))
+
+AG_VA_mean_P=mean(as.numeric(as.vector(na.omit(P_df[,33]))))
+
+barplot(c(AG_VA_mean_R,AG_VA_mean_P),xlab="Rich Vs Poor",ylab = "Agriculture value added",col=rainbow(3))
+
+
+###############################################################
+
+
+#industry value added
+
+IVA_mean_R=mean(as.numeric(as.vector(na.omit(R_df[,34]))))
+
+IVA_mean_P=mean(as.numeric(as.vector(na.omit(P_df[,34]))))
+
+barplot(c(IVA_mean_R,IVA_mean_P),xlab="Rich Vs Poor",ylab = "industry value added",col=rainbow(3))
+
+
+############################################################
+
+
+#service value added
+
+SVA_mean_R=mean(as.numeric(as.vector(na.omit(R_df[,35]))))
+
+SVA_mean_P=mean(as.numeric(as.vector(na.omit(P_df[,35]))))
+
+barplot(c(SVA_mean_R,SVA_mean_P),xlab="Rich Vs Poor",ylab = "service value added",col=rainbow(3))
+
+
+##############################################################
+
+# export of good
+
+EOG_mean_R=mean(as.numeric(as.vector(na.omit(R_df[,36]))))
+
+EOG_mean_P=mean(as.numeric(as.vector(na.omit(P_df[,36]))))
+
+barplot(c(EOG_mean_R,EOG_mean_P),xlab="Rich Vs Poor",ylab = "Export of Good",col=rainbow(3))
+
+
+######################################################################
+
+
+#military expenditure
+
+ME_mean_R=mean(as.numeric(as.vector(na.omit(R_df[,42]))))
+
+ME_mean_P=mean(as.numeric(as.vector(na.omit(P_df[,42]))))
+
+barplot(c(ME_mean_R,ME_mean_P),xlab="Rich Vs Poor",ylab = "Military Expenditure",col=rainbow(3))
+
+
+################################################################
+
+
+#MObile subscription
+
+MCS_mean_R=mean(as.numeric(as.vector(na.omit(R_df[,43]))))
+
+MCS_mean_P=mean(as.numeric(as.vector(na.omit(P_df[,43]))))
+
+barplot(c(MCS_mean_R,MCS_mean_P),xlab="Rich Vs Poor",ylab = "Mobile Cellular Suscription",col=rainbow(3))
+
+
+#######SENTIMENT ANALYSIS#########
+
+consumer_key <-'rU2Qyd3ovON32MfUX9IpYhkw6'
+
+consumer_secret <-'9leyjMqWxtAZaRHFNPO2J5SeQautwq0hw4LDNQJIrAyU9Y60fZ'
+
+access_token<-'873915924868251648-AkjkvF5VKrmhvqStkMfMj2UTqIutIXm'
+
+access_secret <-'wvLb5hEEsJDrZtHMMxsRi9kSX2xlUyl9PvaSgguCDHcZc'
+
+library(twitteR)
+
+setup_twitter_oauth(consumer_key, consumer_secret, access_token, access_secret)
+
+tweet1 = searchTwitter("rich and poor countries",n=10,lang="en", resultType = "recent")
+
+tweet1
+
+#Cleaning Twitter Data
+
+tweet_data.text = sapply(tweet1,function(x) x$getText())
+
+tweet_data.text
+
+#Remove Retweet
+
+x = gsub("RT"," ",tweet_data.text)
+
+x
+
+#Remove @
+
+x = gsub("@\\w+"," ",x)
+
+x
+
+#Remove Puntuation
+
+x=gsub("\\W"," ",x)
+
+x
+
+#Remove Digit
+
+x=gsub("\\d"," ",x)
+
+x
+
+#Remove Links
+
+x = gsub("http\\w+"," ",x)
+
+x
+
+#Remove Tabs
+
+x = gsub("[|\t]{2,}"," ",x)
+
+x
+
+#Remove Blank Space at the beginning
+
+x = gsub("^"," ",x)
+
+x
+
+#Remove Blank Space at the End
+
+x = gsub("$"," ",x)
+
+x
+
+#Convert to Lower
+
+x = tolower(x)
+
+x
+
+#Removing Certain Words(StopWords)
+
+#stopwords()
+
+library(tm)
+
+y = removeWords(x,c('countries',stopwords()))
+
+y
+
+y = stripWhitespace(y)
+
+print(y)
+
+library(wordcloud)
+
+wordcloud(y, random.order=FALSE,min.freq = 0.1)
+
+library(RSentiment)
+
+calculate_score(y)
+
+calculate_sentiment(y)
+
+calculate_total_presence_sentiment(y)
+
+#Sentiment Analysis
+
+library(syuzhet)
+
+sentiment = get_nrc_sentiment(y)
+
+sentiment
+
+z = cbind(y,sentiment)
+
+z
+
+#Count Sentiment Words by Category
+
+TotalSentiment = data.frame(colSums(z[,c(2:11)]))
+
+names(TotalSentiment) = "Count"
+
+TotalSentiment
+
+TotalSentiment = cbind("Sentiment"=rownames(TotalSentiment), TotalSentiment)
+
+TotalSentiment
+
+rownames(TotalSentiment) = NULL
+
+TotalSentiment
+
+#Plot the Sentiment Words
+
+barplot(TotalSentiment$Count, names.arg = TotalSentiment$Sentiment,xlab = "Sentiment", ylab="Total Count", main = "Total Sentiment Score", col = rainbow(10))
+
+abline(h=0)
+
+
+                    
+
