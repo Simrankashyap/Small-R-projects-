@@ -1,5 +1,4 @@
-#Association Rule Mining
-### install and load required packages
+
 install.packages("arules")
 install.packages("arulesViz")
 library(arules)
