@@ -16,137 +16,37 @@ Read 1 item
 [1] 7
 
 
-
-
-
-
-
 2(a)
-
-
-
 for(val in seq(1,5,1))
-
-
-
 {
-
-
-
   for(val1 in seq(1,val,1))
-
-
-
   {cat("*")} 
-
-
-
   cat("\n")
-
-
-
   }
-
-
-
- 
-
-
-
 > source("pyramid.r")
-
-
-
 *
-
-
-
 **
-
-
-
 ***
-
-
-
 ****
 
 
-
- 
-
-
-
 2(b)
-
-
-
 n=scan()
-
-
-
 s=n
-
-
-
 for(i in 1:n)
-
-
-
 {
-
-
-
   for(j in 1:s)
-
-
-
-    cat(" ")
-
-
-
+  cat(" ")
   for(k in 1:i)
-
-
-
   {cat(k) 
-
-
-
   }
-
-
-
   if(i>1)
-
-
-
   {for(z in (i-1):1)
-
-
-
   {cat(z)}
-
-
-
   }
-
-
-
- s=s-1
-
-
-
+  s=s-1
  cat("\n")
-
-
-
-}
-
-
-
-
-
+  }
 > source("pascal.r")
 
 
