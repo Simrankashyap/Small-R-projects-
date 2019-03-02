@@ -1,4 +1,4 @@
-##Regression Trees using rpart()##
+##Regression Trees using rpart()
 library(dplyr)
 library(rpart)
 #Tree plotting
