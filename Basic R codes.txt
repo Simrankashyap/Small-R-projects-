@@ -108,79 +108,24 @@ Read 1 item
 
 
 5)
-
-
-
 n=scan()
-
-
-
 x=1
-
-
-
 y=1
-
-
-
 repeat
-
-
-
 {cat (x)  
-
-
-
   cat(" ")
-
-
-
   cat(y)  
-
-
-
   cat(" ")
-
-
-
   x=x+y
-
-
-
   y=y+x
-
-
-
 if(x>n)break
-
-
-
   }
 
-
-
-
-
 > source("fibo.r")
-
-
-
 1: 10
-
-
-
 2: 
-
-
-
 Read 1 item
-
-
-
 1 1 2 3 5 8 
-
-
-
 
 
 6)
