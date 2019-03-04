@@ -49,9 +49,6 @@ for(i in 1:n)
  cat("\n")
   }
 > source("pascal.r")
-
-
-
 1: 5
 
 
