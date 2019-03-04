@@ -126,47 +126,15 @@ Read 1 item
 
 
 6)
-
-
-
 n=100
-
-
-
 count=0
-
-
-
 for(i in 2:n)
-
-
-
 { f=1
-
-
-
-
-
 for(j in 2:(i/2))
-
-
-
 {
-
-
-
-  if(i%%j==0)
-
-
-
+ if(i%%j==0)
     f=0
-
-
-
   break
-
-
-
 }
 
 
@@ -206,11 +174,6 @@ if(f==1)
 
 
 }
-
-
-
-
-
 > source("break5.r")
 
 
