@@ -1,4 +1,5 @@
-#With outputs           
+#With outputs      
+
 a=scan()
 b=scan()
 c=scan(what="character")
@@ -92,81 +93,18 @@ Read 1 item
 
  
 4)
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
-
-
- 
-
-
-
 n=scan()
-
-
-
 z=1
-
-
-
 for(val in seq(2,n,1))
-
-
-
 {
-
-
-
   z=z*val  
-
-
-
 }
-
-
-
 cat(z)
-
-
-
-
-
 > source("fact.r")
-
-
-
 1: 5
-
-
-
 2: 
-
-
-
 Read 1 item
-
-
-
 120
-
-
-
-
-
 
 
 5)
