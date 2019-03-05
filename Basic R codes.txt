@@ -242,70 +242,16 @@ REPORT 2
 
 
 1. INTRODUCTION
+2. PROBLEM
+3. DATA SET USED
+4. METHODOS
+5. EXPERIMENTAL WORK WITH CODE
+6. RESULT ANALYSIS
+7. CONCLUSION
+8. REFERENCES
+9. APPENDIX
 
-
-
-
-
-
-
-    2. PROBLEM
-
-
-
-
-
-    3. DATA SET USED
-
-
-
-
-
-    4. METHODOLOGY
-
-
-
-    
-
-
-
-    5. EXPERIMENTAL WORK WITH CODE
-
-
-
-
-
-    6. RESULT ANALYSIS
-
-
-
-
-
-    7. CONCLUSION
-
-
-
-
-
-    8. REFERENCES
-
-
-
-
-
-    9. APPENDIX
-
-
-
-
-
-
-
-
-
-
-
-                          INTRODUCTION
+INTRODUCTION
 
 
 
@@ -361,19 +307,10 @@ improved water source
 
 
 
-forest area
+forest are prevalence of HIV in the population etc
 
 
-
-prevalence of HIV in the population etc
-
-
-
-  
-
-
-
-                              PROBLEM   
+PROBLEM   
 
 
 
