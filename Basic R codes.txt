@@ -251,47 +251,7 @@ The following project is based on the WORLD-BANK data set . The main aim of the 
 
 
 
-MObile subscription military expenditure
-
-
-
-export of good
-
-
-
-service value added
-
-
-
-industry value added
-
-
-
-agriculture value added
-
-
-
-inflation rate
-
-
-
-GDP growth
-
-
-
-energy use
-
-
-
-improved sanitation facility
-
-
-
-improved water source
-
-
-
-forest are prevalence of HIV in the population etc
+MObile subscription military expenditure export of good service value added industry value added agriculture value added inflation rate GDP growth energy use improved sanitation facility improved water source forest are prevalence of HIV in the population etc.
 
 
 PROBLEM   
