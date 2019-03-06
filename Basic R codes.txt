@@ -229,13 +229,7 @@ if(f==1)
 
 REPORT 2
 
-
-
-
-
-
-
-                                                INDEX
+#INDEX
 
 
 
@@ -251,23 +245,13 @@ REPORT 2
 8. REFERENCES
 9. APPENDIX
 
-INTRODUCTION
-
-
-
-
-
-
+#INTRODUCTION
 
 The following project is based on the WORLD-BANK data set . The main aim of the project is to read the above data set and classify them as rich and poor countries based on their per capita income (PCI) . The R tool used for this purpose is KMEANS . Various barplots are considered for the rich and poor countries in different categories . The following are the categories :
 
 
 
-MObile subscription
-
-
-
-military expenditure
+MObile subscription military expenditure
 
 
 
