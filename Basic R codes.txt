@@ -287,8 +287,6 @@ EXPERIMENTAL WORK WITH CODE
 
 RESULT ANALYSIS
 
-
-
 It is a bar plot of the problem, showing the difference between Rich Vs poor in several countries: 
 This bar plot is showing the Population Growth of different countries:
 This plot is showing the Surface Area required by the countries:
@@ -297,18 +295,12 @@ In this plot, Gender Parity is shown:
 This plot is showing the GDP growth of the countries.
 
 
+REFERENCES
 
-                               REFERENCES
-
-
-
-              Data Set: http://databank.worldbank.org/data/home.aspx
+Data Set: http://databank.worldbank.org/data/home.aspx
 
 
-
-
-
-                                          CONCLUSION 
+CONCLUSION 
 
 
 
