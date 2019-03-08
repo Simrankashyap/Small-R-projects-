@@ -256,10 +256,6 @@ MObile subscription military expenditure export of good service value added indu
 
 PROBLEM   
 
-
-
-
-
 The basic problem is to find the appropriate data set . The desired data set is created and is named as WORLD-BANK.CSV . The data set consists of 217 countries , each country’s serial code , serial name , country code ,population is available . The 217 different countries are classified/clustered using the KMEANS tool and they are classified as rich and poor ,considering their per capita income(PCI) .  
 
 
@@ -302,19 +298,9 @@ Data Set: http://databank.worldbank.org/data/home.aspx
 
 CONCLUSION 
 
-
-
-
-
 We have determined the GDP growth, surface area occupied, fertility rate, mortality, Gender Parity etc of the countries from which we can distinguish in between the different countries.                        
 
-
-
-                                            APPENDIX
-
-
-
-
+APPENDIX
 
 setwd("/media/parth/CE02917E02916BE9/R")
 
