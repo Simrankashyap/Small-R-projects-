@@ -263,124 +263,27 @@ PROBLEM
 The basic problem is to find the appropriate data set . The desired data set is created and is named as WORLD-BANK.CSV . The data set consists of 217 countries , each country’s serial code , serial name , country code ,population is available . The 217 different countries are classified/clustered using the KMEANS tool and they are classified as rich and poor ,considering their per capita income(PCI) .  
 
 
-
-
-
-
-
-                        
-
-
-
-
-
-                                         DATA SET USED
-
-
-
-
-
+DATA SET USED
 The data set used is World - bank . Csv . It consists of the following 5 columns -
 
-
-
-.Series.Name
-
-
-
+Series.Name
 Series.Code
-
-
-
 Country.Name
-
-
-
 Country.Code
-
-
-
 X2015..YR2015.
-
-
-
-  
-
-
-
 It consists of 11723 rows . There are 217 different countries in the given data set . The data set contains the information about different countries  till the year 2015 . 
 
 
-
-                                        
-
-
-
-
-
-                                         METHDOLOGY 
-
-
-
-
-
+METHDOLOGY 
 The basic methodology , that is the basic tools used in the project are -
 
-
-
 1.Clustering -Cluster analysis or clustering is the task of grouping a set of objects in such a way that objects in the same group (called a cluster) are more similar (in some sense or another) to each other than to those in other groups (clusters). Cluster analysis itself is not one specific algorithm, but the general task to be solved. It can be achieved by various algorithms that differ significantly in their notion of what constitutes a cluster and how to efficiently find them. Popular notions of clusters include groups with small distances among the cluster members, dense areas of the data space, intervals or particular statistical distributions  
-
-
-
-
-
-
-
-
-
-
-
-
-
 2.Sentiment Analysis - Sentiment analysis (also known as opinion mining) refers to the use of natural language processing (NLP), text analysis and computational linguistics to identify and extract subjective information from the source materials. Generally speaking, sentiment analysis aims to determine the attitude of a writer or a speaker with respect to a specific topic or the overall contextual polarity of a document.
 
+3. Barplot - A bar chart or bar plot displays rectangular bars with lengths proportional to the values that they represent. The bars can be plotted vertically or horizontally. One axis of the chart shows the specific categories being compared, and the other axis represents a discrete value. In R, they are made using the barplot function. Bars can be grouped by categories, making grouped barplot. Barplot must not be confused with histogram nor with boxplot.
 
 
-
-
-
-
-    
-
-
-
-
-
-
-
-
-
- 3. Barplot - A bar chart or bar plot displays rectangular bars with lengths proportional to the values that they represent. The bars can be plotted vertically or horizontally. One axis of the chart shows the specific categories being compared, and the other axis represents a discrete value. In R, they are made using the barplot function. Bars can be grouped by categories,
-
-
-
-making grouped barplot. Barplot must not be confused with histogram nor with boxplot.
-
-
-
-
-
-
-
-                              
-
-
-
-                  EXPERIMENTAL WORK WITH                          
-
-
-
-                                                      CODE    
+EXPERIMENTAL WORK WITH CODE    
 
 
 
