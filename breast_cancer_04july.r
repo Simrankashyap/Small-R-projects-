@@ -1,3 +1,4 @@
+#Detection 
 library("class")
 wdbc=read.csv("wdbc.data.txt")
 #View(wdbc)
